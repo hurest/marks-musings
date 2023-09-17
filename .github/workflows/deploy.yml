@@ -24,7 +24,7 @@ jobs:
       - name: Build Blog
         run: npm run build
 
-      - name: Deploy Docs
+      - name: Deploy Blog
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_ACTIONS_TOKEN }}
